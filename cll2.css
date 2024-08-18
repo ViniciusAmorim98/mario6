@@ -1,0 +1,143 @@
+@media (max-width: 576px) {
+    header {
+        background-image: url(img/capa-mbl.png);
+        height: 500px;
+    }
+
+    header h1 {
+        text-align: center;
+        font-weight: bold;
+        /* line-height: 33px; */
+        padding-top: 370px;
+        font-size: 16px;
+    }
+
+    header p {
+        text-align: justify;
+        margin-top: 30px;
+        padding-top: 0;
+    }
+
+    header a {
+        width: 100%;
+
+    }
+
+    .txt-header {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    /*pqe*************/
+
+    #pqe {
+        margin-top: 310px;
+        background-color: black;
+        background-image: url(img/back-pqe.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top right;
+        padding: 30px 0;
+    }
+
+    #pqe h2 {
+        font-size: 18px;
+    }
+
+    .cards-pqe {
+        flex-direction: column;
+
+    }
+
+    .card-pqe {
+
+        width: 100%;
+        border: solid 1px #142537;
+        box-shadow: #142537 0 0 10px;
+    }
+
+
+
+    /*depoimentos*/
+
+    .dp-pc {
+        display: none;
+    }
+
+    #depoimentos {
+        padding: 30px 0;
+        background-image: url(img/back-dep.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: top;
+
+    }
+
+    .dp-flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #depoimentos img {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .card-dep {
+        display: block;
+    }
+
+    /*bio****************/
+
+    #bio {
+        text-align: center;
+        background-image: url(img/back-bio.png);
+    }
+
+    .bio-img {
+        width: 100%;
+    }
+
+    .bio-txt {
+        width: 100%;
+    }
+
+    .flex-bio {
+        display: block;
+        background: transparent;
+        backdrop-filter: blur(0);
+        border: none;
+        box-shadow: none;
+    }
+
+    #bio h2 {
+        font-size: 20px;
+        color: #f8bc7c;
+    }
+
+    #bio img {
+        width: 100%;
+        margin-top: 150px;
+    }
+
+
+
+
+
+    /*formulario*/
+
+
+    #formulario h2 {
+        font-size: 17px;
+    }
+
+
+    /*rodape**********/
+
+    .back-form-pf {
+        background-image: url(img/back-form.png);
+        background-size: 100%;
+        background-position: top;
+    }
+}

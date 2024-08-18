@@ -1,0 +1,182 @@
+header {
+    background-image: url(img/back-dkst.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+header p {
+    padding-top: 20px;
+}
+
+header a {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(to left, rgb(4, 205, 4), rgb(0, 74, 0));
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.txt-header {
+    width: 60%;
+    padding-top: 60px;
+}
+
+/*pra quem é*********************/
+
+#pqe {
+    padding: 50px 0;
+}
+
+#pqe h2 {
+    text-align: center;
+}
+
+
+.cards-pqe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card-pqe {
+    width: 48%;
+    padding: 20px;
+    background-color: #142537;
+    background-image: url(img/back-card.png);
+    background-size: 100%;
+    border-radius: 10px;
+    border: solid 1px #1d72cc;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.card-pqe:hover {
+    box-shadow: #1d72cc 0 0 10px;
+    transform: scale(1.03);
+}
+
+/*depoimento*/
+.card-dep {
+    display: none;
+}
+
+#depoimentos h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #f8bc7c;
+}
+
+.dp-pc img {
+    width: 100%;
+}
+
+/*bio******************************************/
+#bio {
+    padding: 35px 0;
+    background-image: url(img/back-bio-pc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.flex-bio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: solid #1d72cc 1px;
+    box-shadow: #1d72cc 0 0 10px;
+
+    padding: 15px;
+    border-radius: 15px;
+    gap: 50px;
+}
+
+.bio-img {
+    width: 50%;
+}
+
+.bio-txt {
+    width: 50%;
+}
+
+#bio h2 {
+    font-size: 20px;
+    color: #f8bc7c;
+}
+
+#bio img {
+    width: 100%;
+}
+
+
+/*formulario*/
+#formulario {
+    padding: 30px 0;
+}
+
+#formulario h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f8bc7c;
+}
+
+#formulario input {
+    width: 100%;
+    height: 40px;
+}
+
+#formulario input[type="submit"] {
+    background: linear-gradient(to left, rgb(4, 205, 4), rgb(0, 74, 0));
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container-for {
+    border: solid 1px white;
+    padding: 15px;
+    border-radius: 15px;
+
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+
+    box-shadow: rgba(255, 255, 255, 0.345) 0 0 15px;
+}
+
+
+/*rodape**********/
+
+footer {
+    padding: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+
+}

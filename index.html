@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime 360°</title>
+    <link rel="stylesheet" href="cll.css">
+    <link rel="stylesheet" href="cll2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: poppins;
+        }
+
+        body {
+            background-color: #142537;
+            color: white;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        #faixa {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+    <!--perguntas frequentes-->
+
+    <style>
+        .accordion-item {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .accordion-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .accordion-question {
+            background-color: #f4f4f4;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .accordion-answer {
+            padding: 10px;
+            display: none;
+            padding: 10px;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .sub-cont-04 h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 50px;
+        }
+
+        /* Estilos para o carrossel */
+        .carousel {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .carousel img {
+            width: 100%;
+            display: block;
+        }
+
+        .carousel-container {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        /* Estilos para os botões de navegação */
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border: none;
+            outline: none;
+            z-index: 2;
+        }
+
+        .carousel-button i {
+            font-size: 1.5rem;
+            /* Tamanho do ícone */
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+    </style>
+    <!--fim css das perguntas frequentes-->
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="txt-header">
+                <h1>
+
+                    <span class="bold" style="color: #f8bc7c">DESCUBRA EM UM DIAGNÓSTICO ESTRATÉGICO</span>&nbsp;OS
+                    PONTOS DE
+                    MELHORIA QUE PODEM TRANSFORMAR SEU
+                    NEGÓCIO E
+                    ALCANÇAR UM CRESCIMENTO DE 30% EM APENAS 90 DIAS.
+                </h1>
+                <p>
+
+                    Em até 1 hora, vou te apresentar uma ferramenta de avaliação personalizada.
+                    <br><br>
+                    Se você é empreendedor ou profissional liberal, e está cansado de não ver seu negócio crescer, quer
+                    otimizar processos e
+                    profissionalizar sua gestão, agende seu Diagnóstico Estratégico agora mesmo.
+                </p>
+
+                <a href="#formulario">Quero uma consultoria gratuita</a>
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <!--pra quem é-->
+    <section id="pqe">
+        <div class="container">
+            <h2>
+                O DIAGNÓSTICO FINANCEIRO É PARA EMPRESÁRIOS QUE JÁ FATURAM MAIS DE 20 MIL POR MÊS E QUE….
+            </h2>
+
+            <div class="cards-pqe">
+                <div class="card-pqe">
+                    <img src="img/check1.png" alt="" width="25">
+                    <p>
+                        Querem estruturar seus negócios para um crescimento exponencial
+                    </p>
+
+                </div>
+
+                <div class="card-pqe">
+                    <img src="img/check1.png" alt="" width="25">
+                    <p>
+                        Estão cansados de ver seus lucros evaporarem sem conseguir manter a sustentabilidade financeira
+                    </p>
+
+                </div>
+
+                <div class="card-pqe">
+                    <img src="img/check1.png" alt="" width="25">
+                    <p>
+                        Estão prontos para adotar hábitos financeiros saudáveis que tragam estabilidade e crescimento
+                    </p>
+
+                </div>
+
+                <div class="card-pqe">
+                    <img src="img/check1.png" alt="" width="25">
+                    <p>
+                        Estão determinados a equilibrar vida profissional com tempo de qualidade para a família
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--pra quem é-->
+
+    <!--depoimentos-->
+    <section id="depoimentos">
+        <div class="container dp-flex">
+            <h2>
+                Depoimentos
+            </h2>
+            <div class="card-dep">
+                <img src="img/depoimentos/dp1.png" alt="">
+            </div>
+            <div class="card-dep">
+                <img src="img/depoimentos/dp2.png" alt="">
+            </div>
+            <div class="card-dep">
+                <img src="img/depoimentos/dp3.png" alt="">
+            </div>
+            <div class="card-dep">
+                <img src="img/depoimentos/dp4.png" alt="">
+            </div>
+            <div class="card-dep">
+                <img src="img/depoimentos/dp5.png" alt="">
+            </div>
+
+            <div class="dp-pc">
+                <img src="img/depoimentos/pc-dp1.png" alt="">
+                <img src="img/depoimentos/pc-dp2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--depoimentos-->
+
+    <!--bio-->
+    <section id="bio">
+        <div class="container flex-bio">
+
+            <div class="bio-img">
+                <img src="img/bio-img.png" alt="">
+            </div>
+
+            <div class="bio-txt">
+                <h2>
+                    Oi, prazer! Sou Mário Michelon Jr.
+                </h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nobis similique distinctio
+                    nemo
+                    obcaecati sapiente illum ex repellat, exercitationem voluptates debitis hic excepturi animi nam iste
+                    deserunt fugit mollitia! Corrupti?
+                    <br> <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur hic eum porro, expedita
+                    blanditiis
+                    nostrum officiis natus placeat. Odio, totam et. Deserunt dicta molestiae incidunt aliquam nisi
+                    architecto velit.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+    <!--bio-->
+
+
+    <div class="back-form-pf">
+
+        <!--formulario-->
+        <section id="formulario">
+            <div class="container container-for">
+                <h2>
+                    Preencha o formulário para concorrer a uma sessão estratégica
+                </h2>
+
+                <form action="">
+
+                    <input type="text" placeholder="Nome:"> <br> <br>
+                    <input type="tel" placeholder="Whatsapp:"> <br> <br>
+                    <input type="text" placeholder="Instagram:"> <br> <br>
+
+                    <input type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </section>
+        <!--formulario-->
+
+        <!--perguntas frequntes-->
+        <section id="perguntas">
+
+            <div class="faq-container">
+                <div class="sub-cont-04">
+                    <h2 style="width: 80%; margin: 0 auto 20px auto;">PERGUNTAS FREQUENTES</h2>
+
+                </div>
+
+
+                <div class="accordion container">
+                    <div class="accordion-item">
+                        <div class="accordion-question"
+                            style=" background-color: #142537; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                            <p class="pergunta" style="margin: 0; color: white; font-weight: bold;">
+                                O que é essa reunião?
+                            </p>
+                            <span>
+                                <i style="color: white;" class="fa-solid fa-plus"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-answer">É uma reunião para apresentar como funciona o nosso serviço e
+                            entendermos também mais o fundo o seu negócio.
+                        </div>
+                    </div>
+                    <!-- Adicione mais perguntas e respostas aqui -->
+
+                    <div class="accordion-item">
+                        <div class="accordion-question"
+                            style="  background-color: #142537; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                            <p class="pergunta" style="  color: white; font-weight: bold; margin: 0;">
+                                Quanto tempo dura a reunião?
+                            </p>
+                            <span>
+                                <i style="color: white;" class="fa-solid fa-plus"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-answer">A reunião costuma durar entre 1h e 1h30.
+                        </div>
+                    </div>
+                    <!-- Adicione mais perguntas e respostas aqui -->
+
+                    <div class="accordion-item">
+                        <div class="accordion-question"
+                            style=" background-color: #142537; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                            <p class="pergunta" style="margin: 0 ;  color: white; font-weight: bold;">
+                                Quanto custa a assessoria?
+                            </p>
+                            <span>
+                                <i style="color: white;" class="fa-solid fa-plus"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-answer">Não, o valor passamos depois da reunião, pois varia com as
+                            necessidades da sua empresa.
+
+                        </div>
+                    </div>
+                    <!-- Adicione mais perguntas e respostas aqui -->
+
+                    <div class="accordion-item">
+                        <div class="accordion-question"
+                            style=" background-color: #142537; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                            <p class="pergunta" style="margin: 0 ;  color: white; font-weight: bold;">
+                                Vocês prometem resultados?
+                            </p>
+                            <span>
+                                <i style="color: white;" class="fa-solid fa-plus"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-answer">Não, mas todos os nossos clientes hoje tem grandes resultados
+                            através
+                            de nossos serviços.
+
+                        </div>
+                    </div>
+
+
+                    <!-- Adicione mais perguntas e respostas aqui -->
+
+                    <div class="accordion-item">
+                        <div class="accordion-question"
+                            style=" background-color: #142537; display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                            <p class="pergunta" style="margin: 0 ;  color: white; font-weight: bold;">
+                                É curso online?
+                            </p>
+                            <span>
+                                <i style="color: white;" class="fa-solid fa-plus"></i>
+                            </span>
+                        </div>
+                        <div class="accordion-answer">
+                            Não, é um serviço prestado exclusivamente para a sua empresa, 100% de acordo com as suas
+                            necessidades.
+
+                        </div>
+                    </div>
+                    <!-- Adicione mais perguntas e respostas aqui -->
+
+
+
+                </div>
+            </div>
+
+
+        </section>
+        <!--perguntas frequentes-->
+
+    </div>
+
+
+    <!--rodape-->
+    <footer>
+        <div class="container">
+            <div>
+                MJ Michelon - CNPJ 16.732.381/0001-3
+            </div>
+
+            <div>
+                Política de Privacidade
+            </div>
+        </div>
+    </footer>
+    <!--rodape-->
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const accordionItems = document.querySelectorAll('.accordion-item');
+
+            accordionItems.forEach(item => {
+                const question = item.querySelector('.accordion-question');
+                const answer = item.querySelector('.accordion-answer');
+
+                question.addEventListener('click', function () {
+                    answer.classList.toggle('show');
+                });
+            });
+        });
+
+
+        /*---------------*/
+        document.addEventListener("DOMContentLoaded", function () {
+            const accordionItems = document.querySelectorAll('.accordion-item-second');
+
+            accordionItems.forEach(item => {
+                const question = item.querySelector('.accordion-question-second');
+                const answer = item.querySelector('.accordion-answer-second');
+
+                question.addEventListener('click', function () {
+                    answer.classList.toggle('show');
+                });
+            });
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
